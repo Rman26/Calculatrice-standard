@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*enlever les styles par defaut*/
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;    
+    max-width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+.bordure{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ecran{
+    background-color:lightgray;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    /*aligner les elements a droite lorsqu'on saisie*/
+    justify-content: flex-end;
+    /*aligner les elements en bas lorsqu'on saisie*/
+    align-items: center;
+    font-size: 30px;
+    border-radius: 5px;
+}
+.btn{
+    display: grid;
+    /*mettre les grid en 4 collonne de 50 px(largeur)*/
+    grid-template-columns: repeat(4, 50px);
+    /*mettre les grid 5 lignes de 50px (hauteur)*/
+    grid-template-rows: repeat(5, 50px);
+    grid-gap: 5px;
+}

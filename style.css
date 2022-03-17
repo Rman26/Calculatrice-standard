@@ -19,17 +19,18 @@ body{
     padding: 10px;
     border-radius: 10px;
 }
-.ecran{
+#ecran{
     background-color:lightgray;
     width: 100%;
     height: 100px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    padding-right: 10px;
     display: flex;
     /*aligner les elements a droite lorsqu'on saisie*/
     justify-content: flex-end;
     /*aligner les elements en bas lorsqu'on saisie*/
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 5px;
 }
 .btn{
